@@ -21,10 +21,10 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/5c94a977943ac2b777d93.jpg')).split()
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b860e8d8a234384950587.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/f80f14566813bf463a5ce.jpg https://graph.org/file/0b874d158ea16a19ee1a6.jpg https://graph.org/file/052be548a352a99c6fffe.jpg https://graph.org/file/04110986ea927754967d6.jpg https://graph.org/file/147c89b25f25730a8afca.jpg https://graph.org/file/06f2898a28bd8f434dbe4.jpg https://envs.sh/Sk3.jpg https://envs.sh/SkY.jpg https://envs.sh/SkC.jpg https://envs.sh/SkR.jpg https://envs.sh/Sk4.jpg https://envs.sh/SkU.jpg https://envs.sh/Skl.jpg https://envs.sh/Sk8.jpg https://envs.sh/SkJ.jpg https://envs.sh/Sko.jpg https://envs.sh/Skr.jpg https://envs.sh/Sks.jpg https://envs.sh/Sk9.jpg https://envs.sh/Skv.jpg https://envs.sh/SkN.jpg https://envs.sh/SkH.jpg https://envs.sh/Skg.jpg')).split()
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
 WVD = environ.get("WVD", "https://telegra.ph/file/b735f93c8eeef4167c6a1.mp4")
-NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/5c94a977943ac2b777d93.jpg")
+NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -38,17 +38,17 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "autofilter")
+DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # AI
 HORRI_API_KEY = environ.get('HORRI_API_KEY', 'horridapi_Uwk1YJbLSibv2rf88EBPOQ_free_key') # You can get api key here https://t.me/Mrz_bots/222
-BOT_USERNAME = environ.get('BOT_USERNAME', 'TonyStartkRobot')
+BOT_USERNAME = environ.get('BOT_USERNAME', 'KnMoviez_BoT')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'xbotsupports')
-UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/botuptest') # add here your update channel link
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KnMoviez_Request_Group')
+UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/KnMoviez') # add here your update channel link
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
