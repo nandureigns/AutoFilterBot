@@ -1164,14 +1164,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[     
-            InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', url="https://t.me/KnMoviez"),
+            InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', url="https://t.me/NANDAN_REIGNS"),
             InlineKeyboardButton('⇌ Bᴀᴄᴋ ⇌', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id,
             query.message.id,
-            InputMediaPhoto("https://graph.org/file/06f2898a28bd8f434dbe4.jpg") # pls dont change
+            InputMediaPhoto("https://envs.sh/Sko.jpg") # pls dont change
         )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
