@@ -1171,7 +1171,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id,
             query.message.id,
-            InputMediaPhoto("https://telegra.ph/file/74b540e9a28187613fcc8.jpg") # pls dont change
+            InputMediaPhoto("https://graph.org/file/06f2898a28bd8f434dbe4.jpg") # pls dont change
         )
         await query.message.edit_text(
             text=script.SOURCE_TXT,
