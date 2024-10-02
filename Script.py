@@ -143,8 +143,10 @@ USAGE:
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
-    CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> {file_name}"""
+    CAPTION = """<b>@KnMoviez : {file_name}
+    
+<b> Size ⚙️: {file_size}
+<b>Language 🔊: {filelanguage}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
