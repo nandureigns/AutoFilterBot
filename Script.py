@@ -21,7 +21,7 @@ class script(object):
 
 /news - {text}
 /paste - {reply}"""
-    LYRICS = """Usage Lyrics:
+    LYRICS = """Usage Lyrics: 
 
 /lyrics - {song name}"""
     QRCODE = """Usage qr code:
@@ -143,9 +143,9 @@ USAGE:
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
-    CAPTION = """<b>@KnMoviez {filename}</b>
-
-<u>🔊 {languages}</u>"""
+    CAPTION = """<b> @KnMoviez {file_name}</b>
+    
+<b>🔊: {filelanguage}</b>f"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
