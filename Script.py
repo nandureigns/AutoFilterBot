@@ -143,10 +143,9 @@ USAGE:
 /pin :- ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
-    CAPTION = """<b>{filename}</b>
+    CAPTION = """<b>@KnMoviez {filename}</b>
 
-<u>🔊 {languages}</u>
-|.mkv|Pahe.ink:PAHE|Pahe.ph:PAHE|Pahe.in:PAHE|Pahe.li:PAHE"""
+<u>🔊 {languages}</u>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
