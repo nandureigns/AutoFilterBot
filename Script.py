@@ -148,10 +148,8 @@ USAGE:
 <b>══════════════════
 🗂 @KnMoviez {file_name}
 ═════════════════════ 
-𝐉𝐨𝐢𝐧 𝐇𝐞𝐫𝐞 :- @KnMoviez</b>"""
+𝐉𝐨𝐢𝐧 𝐇𝐞𝐫𝐞 :- @KnMoviez</b>f"""
     
-<b>🔊: {filelanguage}</b>f"""
-
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
 IMDb Data:
