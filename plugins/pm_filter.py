@@ -738,7 +738,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('Eɴʜᴀɴᴄᴇ ', callback_data='enhance'),
             InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='telegraph'),
-            InlineKeyboardButton('Sᴏɴɢ ', callback_data='song')
         ], [
             InlineKeyboardButton('Qʀ ᴄᴏᴅᴇ ', callback_data='qr'),
             InlineKeyboardButton('Lʏʀɪᴄꜱ ', callback_data='lyrics'),
@@ -799,21 +798,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.QRCODE,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "song":
-        buttons = [[                        
-            InlineKeyboardButton('⇌ Bᴀᴄᴋ ⇌', callback_data='helpps')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id,
-            query.message.id,
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.SONG,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
