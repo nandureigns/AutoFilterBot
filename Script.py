@@ -27,9 +27,6 @@ class script(object):
     QRCODE = """Usage qr code:
 
 /qr - {text}"""
-    SONG = """usage song: 
-
-/song - {song name}"""
     IMAGINE = """ How to Use example
 <code>/imagine a boy and girl looking a sky </code>
 You Can Create Your like pictures using by This command /imagine """
