@@ -11,7 +11,7 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Tᴏɴʏ Sᴛᴀʀᴋ Is Oᴘᴇɴ Pʀᴏᴊᴇᴄᴛ. 
+- ɴᴀɴᴅᴀɴ ʀᴇɪɢɴꜱ Is Oᴘᴇɴ Pʀᴏᴊᴇᴄᴛ. 
 - Sᴏᴜʀᴄᴇ  - https://t.me/KnMoviez  
 
 <b>DEVS:</b>
@@ -42,7 +42,7 @@ Bʏ ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.
 
 Yᴏᴜ ᴄᴀɴ ʀᴇᴍᴏᴠᴇ ᴛʜᴇᴍ ʙʏ ᴀᴅᴍɪɴ ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ /demote</b>"""
     IMG = """ You Can Serch Image Using This command /img
-Example: <code> /image Tony stark </code>"""
+Example: <code> /image Sᴀᴍᴀɴᴛʜᴀ </code>"""
     FONT_TXT = """ ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴜɴᴄᴛɪᴏɴ
 
 /font {your_text}
