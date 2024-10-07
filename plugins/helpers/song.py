@@ -18,7 +18,7 @@ async def song(client, message):
     thumb_url = data['thumb']
     title = data['title']
     dura = data['duration']
-    songs = f"Title: {title}\nDuration: {dura}\nProvide by @Mrz_bots"
+    songs = f"Title: {title}\nDuration: {dura}\nProvide by @KnMoviez"
     await m.edit("**📤 Uploading...**") 
     await message.reply_photo(photo=thumb_url, caption=songs)
     async with aiohttp.ClientSession() as session:
