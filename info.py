@@ -23,7 +23,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://graph.org/file/f80f14566813bf463a5ce.jpg https://graph.org/file/0b874d158ea16a19ee1a6.jpg https://graph.org/file/052be548a352a99c6fffe.jpg https://graph.org/file/04110986ea927754967d6.jpg https://graph.org/file/147c89b25f25730a8afca.jpg https://graph.org/file/06f2898a28bd8f434dbe4.jpg https://envs.sh/Sk3.jpg https://envs.sh/SkY.jpg https://envs.sh/SkC.jpg https://envs.sh/SkR.jpg https://envs.sh/Sk4.jpg https://envs.sh/SkU.jpg https://envs.sh/Skl.jpg https://envs.sh/Sk8.jpg https://envs.sh/SkJ.jpg https://envs.sh/Sko.jpg https://envs.sh/Skr.jpg https://envs.sh/Sks.jpg https://envs.sh/Sk9.jpg https://envs.sh/Skv.jpg https://envs.sh/SkN.jpg https://envs.sh/SkH.jpg https://envs.sh/Skg.jpg')).split()
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
-WVD = environ.get("WVD", "https://envs.sh/WV9.jpg")
+WVD = environ.get("PICS", "https://envs.sh/WV9.jpg")
 NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
 
 # Admins, Channels & Users
@@ -47,7 +47,7 @@ BOT_USERNAME = environ.get('BOT_USERNAME', 'KnMoviez_BoT')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KnMoviez_Request_Group')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'KnMoviez_Request_Groupp')
 UPDATE_CHANNEL = environ.get('UPDATE_CHANNEL', 'https://t.me/KnMoviez') # add here your update channel link
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
