@@ -21,7 +21,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/bdddc6ef1e726472cc7b9.jpg')).split()
+PICS = (environ.get('PICS','https://graph.org/file/bdddc6ef1e726472cc7b9.jpg https://graph.org/file/bdddc6ef1e726472cc7b9.jpg')).split()
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
 WVD = environ.get("PICS", "https://envs.sh/WV9.jpg")
 NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
