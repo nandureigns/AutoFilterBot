@@ -143,7 +143,7 @@ USAGE:
 /unpin :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢ
 /unpin_all :- ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴀʟʟ ᴍᴇꜱꜱᴀɢ"""
     CAPTION = """
-<b>@KnMoviez </b> {file_name}"""
+<b>@KnMoviez <b>{file_name}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
