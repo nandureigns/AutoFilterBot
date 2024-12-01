@@ -21,10 +21,10 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://graph.org/file/5c94a977943ac2b777d93.jpg')).split()
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b860e8d8a234384950587.jpg")
-WVD = environ.get("WVD", "https://telegra.ph/file/b735f93c8eeef4167c6a1.mp4")
-NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/5c94a977943ac2b777d93.jpg")
+PICS = (environ.get('PICS', 'https://envs.sh/I4Q.jpg https://envs.sh/I4h.jpg https://envs.sh/I4D.jpg https://envs.sh/BrZ.jpg https://envs.sh/I1-.jpg https://envs.sh/Skg.jpg https://envs.sh/SkN.jpg https://envs.sh/Skv.jpg https://envs.sh/Skr.jpg https://envs.sh/Sk8.jpg https://envs.sh/Skl.jpg https://envs.sh/SkC.jpg https://envs.sh/SkY.jpg https://graph.org/file/06f2898a28bd8f434dbe4.jpg https://graph.org/file/0b874d158ea16a19ee1a6.jpg')).split()
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
+WVD = environ.get("WVD", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
+NO_IMDB = environ.get("NO_IMDB", "https://graph.org/file/0b874d158ea16a19ee1a6.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
