@@ -102,7 +102,7 @@ class Bot(Client):
                 current += 1
 
 
-
+py async def start(self, **kwargs):
 
 app = Bot()
 app.run()
